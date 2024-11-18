@@ -1,0 +1,147 @@
+
+body{
+    background-image: url(Assets/background.jpeg);
+    background-size: cover;
+    height: 380px;
+}
+#main{
+    text-align: center;
+    
+}
+
+h1{
+    color: rgb(253, 22, 22);
+    
+}
+
+p{
+    margin-bottom: -10px;
+}
+
+.instruction{
+    font-size: 20px;
+    font-weight: 800;
+    text-shadow:2ch;
+    color: white;
+    font-weight: 800;
+
+}
+
+.players{
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    font-weight: 700;
+    .
+   
+
+   
+}
+
+.ui{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    
+    
+}
+
+.row{
+    display: flex;
+    
+}
+
+.cell{
+    background-color: rgba(65, 81, 67, 0);
+    color: white;
+    font-weight: 900;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.cell:active{
+    outline: none;
+}
+
+
+#b1{
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+#b2{
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+#b3{
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+}
+#b4{
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+}
+#b5{
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+}
+#b6{
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+    
+}
+#b7{
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+#b8{
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+}
+#b9{
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
+
+#btnReset{
+    box-sizing: border-box;
+    width: 95px;
+    height: 30px;
+    border: 1px solid dodgerblue;
+    margin-left: auto;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+#btnReset:active{
+    background-color: rgb(255, 166, 166);
+    
+  
+}
+
+#print{
+    
+    color: rgb(255, 186, 48);
+    transition: width 0.5s ease, height 0.5s ease, background-color 0.3s ease;
+}
