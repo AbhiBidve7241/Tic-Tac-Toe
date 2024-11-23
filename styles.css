@@ -149,7 +149,9 @@ p{
 @media (max-width: 768px) {
     body {
         height: auto; 
+        ba
         background-image: url(background-mobile.jpeg);
+        background-size: cover;
     }
 
     .instruction {
